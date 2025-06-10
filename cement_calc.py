@@ -33,6 +33,10 @@ try:
     while thickness is None:
         try:
             thickness = float(input("- Enter the thickness of the cement in inches: "))
+            # Checking if the input is a positive number
+            if thickness <= 0:
+                print("\033[91m Invalid input. Thickness must be a positive number.\033[0m\n")
+                thickness = None
         # Catching ValueError if the input is not a number
         except ValueError:
             print("\033[91m Invalid input. Please enter a numeric value.\033[0m\n")
@@ -41,6 +45,10 @@ try:
     while width is None:
         try:
             width = float(input("- Enter the width of the cement in ft: "))
+            # Checking if the input is a positive number
+            if width <= 0:
+                print("\033[91m Invalid input. Width must be a positive number.\033[0m\n")
+                width = None
         # Catching ValueError if the input is not a number
         except ValueError:
             print("\033[91m Invalid input. Please enter a numeric value.\033[0m\n")
@@ -49,6 +57,10 @@ try:
     while length is None:
         try:
             length = float(input("- Enter the length of the cement in ft: "))
+            # Checking if the input is a positive number
+            if length <= 0:
+                print("\033[91m Invalid input. Length must be a positive number.\033[0m\n")
+                length = None
         # Catching ValueError if the input is not a number
         except ValueError:
             print("\033[91m Invalid input. Please enter a numeric value.\033[0m\n")
