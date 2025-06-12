@@ -6,7 +6,7 @@ Cement Slab Calculator computes the number of cubic yards necessary for slabs of
 Alexandr Iapara
 
 ## Requiremenets
-Python needs to be installed.
+Python needs to be installed to run the following program.
 
 ## Usage
 ```
@@ -17,7 +17,7 @@ or
 python3 cement_calc.py
 ```
 
-## Technologies Used
+## Programming Languages
 Python
 
 ## Reference
