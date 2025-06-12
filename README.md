@@ -1,4 +1,4 @@
-# Project Cement-Slab-Calculator
+# Cement-Slab-Calculator
 
 Cement Slab Calculator computes the number of cubic yards necessary for slabs of certain thickness, width, and length.
 
